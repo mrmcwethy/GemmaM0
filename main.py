@@ -58,7 +58,6 @@ i = 0
 while True:
   # spin internal LED around!
   dot[0] = wheel(i)
-  print(wheel(i))
   dot.show()
 
   # set analog output to 0-3.3V (0-65535 in increments)
